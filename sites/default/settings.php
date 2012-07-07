@@ -201,15 +201,15 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => 'ves',
       'username' => 'ves',
       'password' => '12345678',
-      'host' => 'localhost',
-      'port' => '',
+      'host' => '192.168.0.13',
+      'port' => '8889',
       'driver' => 'mysql',
       'prefix' => '',
     ),
