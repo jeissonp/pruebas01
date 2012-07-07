@@ -11,32 +11,24 @@ label {
   font-weight:normal;
 }
 
-.form-textarea-wrapper textarea {
-  background: none repeat scroll 0 0 #FFFFFF;
-  border: 1px solid #CBCBCB;
-  font-size: 0.9em;
-  max-width: 500px;
-  min-height: 90px;
-  padding: 5px;
-}
-select {
-  background: none repeat scroll 0 0 #0389E2;
-  border: 1px solid #E1E1E1;
-  color: #FFFFFF;
-  font-size: 0.75em;
-  padding: 2px 0 2px 5px;
-  width: 100%;
-}
-input[type="email"], input[type="text"], input[type="password"], textarea {
-  border: 1px solid #CBCBCB;
-  color: #999999;
-  font-size: 0.75em;
-  padding: 3px 5px;
+.form-textarea-wrapper textarea{
   width: 95%;
 }
-
-.page-user input[type="email"], .page-user input[type="text"], .page-user input[type="password"] {
-  width:30%;
+select {
+  background: none repeat scroll 0 0 #F2F2F2;
+  border: 1px solid #DDDDDD;
+  color: #999;
+  font-size: 0.8em;
+  padding: 2px 0 2px 5px;
+  border-radius: 5px;
+}
+input[type="email"], input[type="text"], input[type="password"], textarea , .form-textarea-wrapper textarea{
+  background: none repeat scroll 0 0 #F2F2F2;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px 5px 5px 5px;
+  color: #999999;
+  font-size: 0.8em;
+  padding: 5px 10px;
 }
 
 .fieldset-legend {
@@ -58,24 +50,21 @@ fieldset.checkout-buttons .fieldset-wrapper {
 /***BOTONES */
 
 input[type="submit"] {
-  background:url("../images/bg-boton.png") repeat-x scroll left top #ECDF00;
-  border-radius: 25px 25px 25px 25px;
+  background: #8DC849;
+  border-radius: 8px;
   border: medium none;
-  color: #755C00;
+  color: #FFF;
   cursor: pointer;
   display: inline-block;
-  font-family:Arial;/*importantisimo*/
   font-size: 0.7em;
-  font-weight: bold;
   margin-right: 0.5em;
   padding: 6px 15px;
-  text-transform: uppercase;
   width: auto;
 }
 input[type="submit"]:active {
-  background:#F2F232;
+  background:#C9DC3E;
 }
 input[type="submit"]:hover, .btn-yellow:hover, .form-actions input:hover {
-  background:url("../images/bg-boton.png") repeat-x scroll left -35px #F2F232;
-  color:#857700;
+  background: #C9DC3E;
+  color:#FFF;
 }
