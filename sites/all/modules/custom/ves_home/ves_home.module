@@ -1,0 +1,19 @@
+<?php
+/**
+ * Implements hook_menu().
+ */
+function ves_home_menu() {
+  return array(
+    'home' => array(
+      'title' => 'COMUNIDAD VEA',
+      'page callback' => 'vea_home_page',
+      'access arguments' => array('access content'),
+    ),
+  );
+}
+
+function vea_home_page() {
+  $content = array();
+
+  return $content;
+}
