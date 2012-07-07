@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 p {
-  font-size:0.75em;
+  font-size:0.85em;
   margin: 10px 0;
 }
 ::selection {
@@ -67,7 +67,7 @@ ul li{
   margin-bottom: 10px;
 }
 .item-list ul {
-  font-size: 0.75em;
+  font-size: 0.85em;
   margin: 0;
 }
  ul p{
@@ -130,20 +130,10 @@ ol li p{
 .date-publication{
   font-size: 0.9em;
 }
-/*BLOCKQUOTE*/
-
-.blockquote {
-  color: #FFFFFF;
-  font-style: italic;
-  padding-left: 1em;
-  width: 80%;
-}
-
-/* PAGER */
 
 /*****tablas****/
 th {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #DDD;
   font-size: 0.9em;
 }
 tbody {
