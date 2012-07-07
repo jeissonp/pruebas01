@@ -1,11 +1,11 @@
 html {
-  background: none repeat scroll 0 0 #F5F0ED;
+  background: none repeat scroll 0 0 #F2F2F2;
   display:block;
 }
 
 body {
-  background:url("../images/none.jpg") scroll no-repeat center top #F5F0ED;
-  color:#422D2A;
+  background:url("../images/none.jpg") scroll no-repeat center top #F2F2F2;
+  color:#333;
   font-family: 'ElektraLightProRegular';
   font-weight: normal;
   font-size:1em;
@@ -17,52 +17,46 @@ p {
   margin: 10px 0;
 }
 ::selection {
-  background: #0097f1;
+  background: #C9DC3E;
   color: 000;
   text-shadow: none;
 }
 /* enlaces */
 
 a {
-  color:#1f6e96;
+  color:#8DC849;
   text-decoration:none;
 }
 a:hover {
-  color:#0097f1;
+  color:#C9DC3E;
 }
 
 a:active, a.active, li a.active {
-  color:#666;
+  color:#C9DC3E;
 }
 
 /* headers */
 
 h1, h2, h3, h4 {
   font-weight:normal;
-  font-family: LeagueGothicRegular,sans-serif;
   margin: 0 0px 15px 0px;
 }
 h1{
-  color: #3D3D3D;
   font-size: 2.4em;
   line-height: 0.8;
   margin-top: 15px;
-  text-transform: uppercase;
 }
   
 h2{
-  color:#535250;
 }
 
 h3{
-  color:#535250;
-/*  margin-top: 0.9em;*/
 }
 
 
 /* LISTS */
 ul {
-  list-style-image: url("../images/bullet-azul.png");
+  list-style-image: url("../images/bullet.png");
   font-size: 12px;
   font-weight: normal;
   list-style-type: disc;
@@ -73,7 +67,6 @@ ul li{
   margin-bottom: 10px;
 }
 .item-list ul {
-  color: #1F6E96;
   font-size: 0.75em;
   margin: 0;
 }
@@ -98,14 +91,14 @@ ul.primary li {
   display: inline;
 }
 ul.primary li a {
-  background-color: #0064A0;
+  background-color: #8DC849;
   color:#FFFFFF;
   padding: 10px 15px;
   text-decoration: none;
 
 }
 ul.primary li.active a {
-  background-color:#0289E2;
+  background-color:#DDD;
 }
 ul.primary li a:hover {
   background-color: #f0f0f0;
@@ -125,7 +118,7 @@ ul.secondary a {
   text-decoration: none;
 }
 ul.secondary a.active {
-  border-bottom: 4px solid #412E28;
+  border-bottom: 4px solid #8DC849;
 }
 ol li{
   margin-bottom: 5px;
