@@ -1,0 +1,56 @@
+
+/******pager circle***/
+.item-list  ul.pager{
+    list-style: none outside none;
+    overflow: hidden;
+}
+.item-list ul.pager li{
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.pager-circle .item-list  ul.pager>li a, .slide-block-paginator a, #slide-home-paginator a{
+    background: url("../images/btn-sliderCirculo.png") no-repeat scroll 0 0 transparent;
+    color: transparent;
+    display: inline-block;
+    font-size: 0;
+    margin: 2px;
+    padding-top: 8px;
+    width: 8px;
+}
+.pager-circle .item-list  ul.pager>li span{
+  
+}
+.pager-circle  .item-list ul.pager li.pager-next , .pager-circle .item-list ul.pager li.pager-first , 
+.pager-circle  .item-list ul.pager li.pager-last , .pager-circle .item-list  ul.pager li.pager-previous {
+  display: none;
+}
+
+.slide-block-paginator a:hover, #slide-home-paginator a:hover, .pager-circle .item-list  ul.pager>li a:hover{
+  background-position: 0 -8px;
+  font-size: 0;
+  color: transparent;
+}
+.slide-block-paginator a:active, #slide-home-paginator a:active{
+  background-position: 0 -8px;
+  font-size: 0;
+  color: transparent;
+  }
+ 
+
+ .pager-circle ul.pager li.pager-current span{
+    background: url("../images/btn-sliderCirculo.png") no-repeat scroll 0 -8px transparent;
+    color: #333333;
+    display: inline-block;
+    font-size: 0;
+    margin: 2px;
+    padding-top: 8px;
+    width: 8px;
+}
+ul.menu {
+    list-style-position: outside;
+
+}

@@ -1,0 +1,17 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+.page .container-12 .grid-12 {
+   margin-left: 0 ;
+   margin-right: 0 ;
+   width: 960px ;
+}
+html, body{
+  min-height: 100%;
+}
+html{
+  height: 100%;
+}
+#zone-content{
+	background: #FFF;
+	position: relative;
+	/*padding-bottom: 25px;*/
+}

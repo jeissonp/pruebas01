@@ -1,0 +1,53 @@
+#zone-branding, #zone-menu{
+   background: url("../images/bg-logoBack.png") repeat-x scroll 0 0 transparent;
+}
+#region-branding-right-top .block{
+  float: left;
+  margin-left: 15px;
+}
+
+#logo{
+  float: left;
+}
+/***search***/
+#search-block-form .form-item{
+    margin: 0;
+}
+ #search-form label{
+  display: none;
+}
+#search-block-form input.form-submit, #search-block-form input.form-submit:hover{
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  cursor: pointer;
+  float: right;
+  font-size: 0;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  text-indent: -999px;
+  width: 30px;
+}
+#search-block-form input.form-text , #search-form input.form-text{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    float: left;
+    padding: 2px 10px 3px;
+    width: 150px;
+    color: #898989;
+    font-style: italic;
+    font-size: 0.75em;
+}
+#search-block-form{
+  background: url("../images/bg-buscador.png") repeat-x scroll 0 0 transparent;
+  margin-bottom: 0;
+  width: 203px;
+  margin: 14px 0;
+}
+
+#search-block-form{
+  float: right;
+} 
+.form-search  #search-form{
+   float: left;
+ }

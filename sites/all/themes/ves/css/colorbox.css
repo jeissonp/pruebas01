@@ -1,0 +1,54 @@
+#cboxOverlay {background:url("../images/overlay.png") repeat 0 0;}
+#cboxClose {
+  background: url("../images/btn-cerrarX.jpg") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  height: 32px;
+  position: absolute;
+  right: -5px;
+  text-indent: -9999px;
+  top: -37px;
+  width: 32px;
+  z-index: 30;
+}
+#cboxContent {
+  background: none repeat scroll 0 0 #F0F0F0;
+  border: 5px solid #0064A0;
+  overflow: visible;
+  position: relative;
+}
+#cboxLoadedContent {
+  margin-bottom: 0;
+}
+#cboxLoadedContent .node {
+  padding: 25px;
+}
+#cboxLoadedContent h3 {
+  color: #333333;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+#cboxMiddleLeft, #cboxMiddleRight, #cboxTopLeft, #cboxTopCenter, #cboxTopRight, #cboxBottomLeft, #cboxBottomCenter, #cboxBottomRight{
+  display: none;
+}
+#colorbox, #cboxOverlay, #cboxWrapper {
+  overflow: visible !important;
+}
+#colorbox, #cboxOverlay, #cboxWrapper {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+#cboxClose:hover {
+  background-position: 0 0;
+}
+#cboxOverlay {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}

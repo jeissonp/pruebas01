@@ -1,0 +1,69 @@
+/* menu */
+#zone-menu .contextual-links-region {
+    position: static;
+}
+#zone-menu .content > ul.menu{
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#zone-menu .content > ul.menu > li{ 
+  float:left;
+  display:block;
+  background-image:none;
+  padding: 0;
+  margin: 0;
+}
+#zone-menu .content > ul.menu ul{
+  padding: 0;
+}
+#zone-menu  .content > ul.menu > li > a{
+  background-color: #AE0057;
+  padding: 5px 15px;
+  font-family: league-gothic,sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  float: left;
+}
+#zone-menu  .content > ul.menu > li > a:hover{
+  background-color: #0099CB;
+}
+#zone-menu .content > ul.menu > li > a.active{
+  color: #FFF;
+
+}
+#zone-menu  .content > ul.menu > li li a{
+  color: #000;
+  font-family: league-gothic,sans-serif;
+  font-size: 1.8em;
+  display: block;
+  margin: 20px 0 5px;
+  line-height: 1;
+}
+#zone-menu  .content > ul.menu > li li{
+  float: left;
+  list-style: none outside none;
+  width: 130px;
+  margin: 0 10px;
+}
+#zone-menu  .content > ul.menu > li li li{
+  margin: 2px 0;
+}
+#zone-menu  .content > ul.menu  ul{
+  margin: 0;
+}
+#zone-menu  .content > ul.menu > li li li a{
+  color: #d41f16;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+}
+#zone-menu  .content > ul.menu > li li li a:hover {
+  color:#f64a38;  
+}
+
+#zone-menu  .content > ul.menu > li li li a:active {
+  color:#bf2413;  
+}

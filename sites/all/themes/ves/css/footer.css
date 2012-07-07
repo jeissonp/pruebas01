@@ -1,0 +1,55 @@
+/*GENERALIDADES FOOTER*/
+.zone-footer-wrapper {
+  background:url("../images/bg-footerPattern.jpg") repeat left top transparent;
+}
+#section-footer a {
+  color:#ffffff;
+}
+
+
+/*FOOTER MENU*/
+#section-footer ul.menu, #section-footer ul.menu li.leaf {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#section-footer ul.menu li a {
+  color: #CFCFCF;
+  font-size: 0.9em;
+}
+#section-footer ul.menu li a:hover {
+  color: #EED822;
+}
+#section-footer #block-menu-menu-about-the-university ul.menu li a, 
+#section-footer #block-menu-menu-contact-us ul.menu li a {
+  padding: 4px 0 5px 20px;
+}
+
+/*REDES SOCIALES*/
+#block-menu-menu-social-media ul.menu li {
+  float:left;
+  margin-right:5px;
+  padding-bottom:10px;
+}
+#section-footer  #block-menu-menu-social-media ul.menu li a {
+  font-size: 0;
+  padding: 13px;
+  color:transparent;
+}
+#section-footer .region-footer-first #block-menu-menu-social-media ul.menu li {
+  padding-left: 0px;
+}
+a.menu-social-media-facebook {
+  background:url("../images/ico-faceBook.png") no-repeat center top transparent;
+}
+a.menu-social-media-google-plus {
+  background:url("../images/ico-googlePlus.png") no-repeat center top transparent;
+}
+a.menu-social-media-twitter {
+  background:url("../images/ico-twitter.png") no-repeat center top transparent;
+}
+a.menu-social-media-youtube {
+  background:url("../images/ico-youTube.png") no-repeat center top transparent;
+}
+
+
