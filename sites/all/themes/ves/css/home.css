@@ -1,0 +1,27 @@
+.front #section-header{
+	background:url("../images/header-home.jpg") scroll repeat-x 0 0 transparent;
+}
+.front #section-content{
+	background-color: #DEE899;
+	border-top: 3px solid #8BC74A;
+}
+.front h1{
+	display: none;
+}
+.front #region-content {
+	background-color: #DEE899;
+}
+.front input[type="email"], 
+.front input[type="text"], 
+.front input[type="password"]{
+    background: none repeat scroll 0 0 #D2E16B;
+    border: 1px solid #D2E16B;
+    border-radius: 5px 5px 5px 5px;
+    color: #5F8F19;
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+.front #main-content{
+	background:url("../images/img-home.jpg") scroll no-repeat 0 0 transparent;
+}
