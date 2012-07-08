@@ -5,6 +5,25 @@ html, body{
 html{
   height: 100%;
 }
-#region-content{
-	background: #F2F2F2;
+.region-content-inner{
+    background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+}
+
+div.error {
+    background-color:  #F8F8F8;
+    border: 1px solid #E7E7E7;
+}
+div.messages {
+    min-height: 65px;
+    padding: 10px 10px 10px 100px;
+}
+div.error, .error, div.status, .ok {
+    color: #565656;
+}
+div.status {
+    background-color: #F8F8F8;
+    border: 1px solid #E7E7E7;
 }

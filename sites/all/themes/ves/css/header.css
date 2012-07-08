@@ -5,9 +5,9 @@
   float: left;
   margin-left: 15px;
 }
-
-#logo{
-  float: left;
+#logo {
+    float: left;
+    padding: 25px 0;
 }
 /***search***/
 #search-block-form .form-item{

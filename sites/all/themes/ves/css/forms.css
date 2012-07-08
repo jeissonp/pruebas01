@@ -65,6 +65,6 @@ input[type="submit"]:active {
   background:#C9DC3E;
 }
 input[type="submit"]:hover, .btn-yellow:hover, .form-actions input:hover {
-  background: #C9DC3E;
+  background: #5F8F19;
   color:#FFF;
 }

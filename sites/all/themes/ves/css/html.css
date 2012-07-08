@@ -55,7 +55,7 @@ h3{
 /* LISTS */
 ul {
   list-style-image: url("../images/bullet.png");
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   list-style-type: disc;
   margin: 0;

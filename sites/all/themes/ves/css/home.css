@@ -14,14 +14,24 @@
 .front input[type="email"], 
 .front input[type="text"], 
 .front input[type="password"]{
-    background: none repeat scroll 0 0 #D2E16B;
-    border: 1px solid #D2E16B;
-    border-radius: 5px 5px 5px 5px;
-    color: #5F8F19;
-    font-size: 0.8em;
-    padding: 5px 10px;
+	background: none repeat scroll 0 0 #D2E16B;
+	border: 1px solid #D2E16B;
+	border-radius: 5px 5px 5px 5px;
+	color: #5F8F19;
+	font-size: 0.8em;
+	padding: 5px 10px;
 }
 
 .front #main-content{
-	background:url("../images/img-home.jpg") scroll no-repeat 0 0 transparent;
+	background: url("../images/img-home.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	height: 339px;
+	margin: 30px;
+	width: 462px;
+}
+.block-user {
+	float: right;
+	margin: 30px;
+	width: 300px;
 }
