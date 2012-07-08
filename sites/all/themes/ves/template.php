@@ -12,5 +12,5 @@
  */
 
 function ves_preprocess_html(&$vars) {
-  dpm($vars);
+  $vars['attributes_array']['class'][] = drupal_html_class(current_path());
 }
